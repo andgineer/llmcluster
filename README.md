@@ -5,7 +5,7 @@
 | Name                            |    Stmts |     Miss |   Cover |   Missing |
 |-------------------------------- | -------: | -------: | ------: | --------: |
 | src/llmcluster/\_\_about\_\_.py |        1 |        0 |    100% |           |
-| src/llmcluster/main.py          |       16 |        5 |     69% |     22-31 |
+| src/llmcluster/main.py          |       16 |        5 |     69% |     22-29 |
 | **TOTAL**                       |   **17** |    **5** | **71%** |           |
 
 
