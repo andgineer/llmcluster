@@ -248,7 +248,7 @@ wheels = [
 ]
 
 [[package]]
-name = "llmcluster"
+name = "llmbroker"
 source = { editable = "." }
 dependencies = [
     { name = "click" },

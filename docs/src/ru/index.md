@@ -1,4 +1,4 @@
-# llmcluster
+# llmbroker
 
 
 
@@ -7,5 +7,5 @@
 
 Чтобы увидеть все параметры, используйте:
 ```bash
-llmcluster --help
+llmbroker --help
 ```

@@ -86,6 +86,6 @@ jobs:
           name: Release ${{ env.RELEASE_VERSION }}
           tag_name: ${{ env.RELEASE_VERSION }}
 
-          body: https://pypi.org/project/llmcluster/${{ env.RELEASE_VERSION }}/
+          body: https://pypi.org/project/llmbroker/${{ env.RELEASE_VERSION }}/
           draft: false
           prerelease: false

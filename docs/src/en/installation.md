@@ -7,5 +7,5 @@ It is recommended to use Astral's `uv tool` for installation to prevent conflict
 ### Install Application
 
 ```bash
-uv tool install llmcluster --upgrade --python 3.13
+uv tool install llmbroker --upgrade --python 3.13
 ```

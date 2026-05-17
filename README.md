@@ -1,12 +1,12 @@
-[![Build Status](https://github.com/andgineer/llmcluster/workflows/CI/badge.svg)](https://github.com/andgineer/llmcluster/actions)
-[![Coverage](https://raw.githubusercontent.com/andgineer/llmcluster/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/andgineer/llmcluster/blob/python-coverage-comment-action-data/htmlcov/index.html)
-# llmcluster
+[![Build Status](https://github.com/andgineer/llmbroker/workflows/CI/badge.svg)](https://github.com/andgineer/llmbroker/actions)
+[![Coverage](https://raw.githubusercontent.com/andgineer/llmbroker/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/andgineer/llmbroker/blob/python-coverage-comment-action-data/htmlcov/index.html)
+# llmbroker
 
 
 
 # Documentation
 
-[Llmcluster](https://andgineer.github.io/llmcluster/)
+[llmbroker](https://andgineer.github.io/llmbroker/)
 
 
 
@@ -22,7 +22,7 @@ Use [pre-commit](https://pre-commit.com/#install) hooks for code quality:
 
 ## Allure test report
 
-* [Allure report](https://andgineer.github.io/llmcluster/builds/tests/)
+* [Allure report](https://andgineer.github.io/llmbroker/builds/tests/)
 
 # Scripts
 Install [invoke](https://docs.pyinvoke.org/en/stable/) preferably with [uv tool](https://docs.astral.sh/uv/):
@@ -38,7 +38,7 @@ For more information about a script run:
     invoke <script> --help
 
 ## Coverage report
-* [Codecov](https://app.codecov.io/gh/andgineer/llmcluster/tree/main/src%2Fllmcluster)
-* [Coveralls](https://coveralls.io/github/andgineer/llmcluster)
+* [Codecov](https://app.codecov.io/gh/andgineer/llmbroker/tree/main/src%2Fllmbroker)
+* [Coveralls](https://coveralls.io/github/andgineer/llmbroker)
 
 > Created with cookiecutter using [template](https://github.com/andgineer/cookiecutter-python-package)

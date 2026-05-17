@@ -28,7 +28,7 @@ ALLOWED_VERSION_TYPES = ["release", "bug", "feature"]
 @task
 def version(_c: Context):
     """Show the current version."""
-    with open("src/llmcluster/__about__.py", "r") as f:
+    with open("src/llmbroker/__about__.py", "r") as f:
         version_line = f.readline()
         version_num = version_line.split('"')[1]
         print(version_num)

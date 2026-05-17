@@ -7,5 +7,5 @@
 ### Установка приложения
 
 ```bash
-uv tool install llmcluster --upgrade --python 3.13
+uv tool install llmbroker --upgrade --python 3.13
 ```

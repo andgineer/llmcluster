@@ -1,4 +1,4 @@
-# llmcluster
+# llmbroker
 
 
 
@@ -7,10 +7,10 @@
 
 Use
 ```bash
-llmcluster --help
+llmbroker --help
 ```
 to see all available options.
 
 !!! info "About"
     ![About](images/about.jpg)
-    [About][llmcluster.__about__]
+    [About][llmbroker.__about__]

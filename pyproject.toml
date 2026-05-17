@@ -3,7 +3,7 @@ requires = [ "hatchling",]
 build-backend = "hatchling.build"
 
 [project]
-name = "llmcluster"
+name = "llmbroker"
 dynamic = [ "version",]
 description = ""
 keywords = [ "one", "two", ]
@@ -22,8 +22,8 @@ email = "andrey@sorokin.engineer"
 file = "LICENSE"
 
 [project.urls]
-Homepage = "https://andgineer.github.io/llmcluster/"
-Documentation = "https://andgineer.github.io/llmcluster/"
+Homepage = "https://andgineer.github.io/llmbroker/"
+Documentation = "https://andgineer.github.io/llmbroker/"
 
 [tool.setuptools]
 packages = "find:"
@@ -38,7 +38,7 @@ include = [ "README.md", "LICENSE",]
 line-length = 99
 
 [tool.hatch.version]
-path = "src/llmcluster/__about__.py"
+path = "src/llmbroker/__about__.py"
 
 [tool.uv]
 dev-dependencies = [
@@ -57,4 +57,4 @@ dev-dependencies = [
 ]
 
 [project.scripts]
-llmcluster = "llmcluster.main:llmcluster"
+llmbroker = "llmbroker.main:llmbroker"

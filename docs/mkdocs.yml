@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: llmcluster
-site_url: https://andgineer.github.io/llmcluster
+site_name: llmbroker
+site_url: https://andgineer.github.io/llmbroker
 site_author: Andrey Sorokin
 
 # Repository
-repo_name: llmcluster
-repo_url: https://github.com/andgineer/llmcluster
+repo_name: llmbroker
+repo_url: https://github.com/andgineer/llmbroker
 edit_uri: edit/master/docs
 docs_dir: 'src/LANGUAGE'
 site_dir: 'SITE_DIR'
@@ -34,10 +34,10 @@ markdown_extensions:
 extra:
   alternate:
     - name: English
-      link: /llmcluster/
+      link: /llmbroker/
       lang: en
     - name: Русский
-      link: /llmcluster/ru/
+      link: /llmbroker/ru/
       lang: ru
 
 nav:

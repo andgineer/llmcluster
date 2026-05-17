@@ -1,21 +1,21 @@
-"""llmcluster."""
+"""llmbroker."""
 
 from pathlib import Path
 
 import rich_click as click
 
-from llmcluster import __version__
+from llmbroker import __version__
 
 click.rich_click.USE_MARKDOWN = True
 OUTPUT_FILE_DEFAULT = "output"
 
 
 @click.command()
-@click.version_option(version=__version__, prog_name="llmcluster")
+@click.version_option(version=__version__, prog_name="llmbroker")
 @click.argument("input_file", type=click.Path(exists=True))
 @click.argument("output_file", type=click.Path(), required=False)
 @click.option("--force", is_flag=True, help="Overwrite the output file if it exists.")
-def llmcluster(input_file: str, output_file: str, force: bool) -> None:
+def llmbroker(input_file: str, output_file: str, force: bool) -> None:
     """
     `INPUT_FILE` to `OUTPUT_FILE`.
     """
@@ -30,4 +30,4 @@ def llmcluster(input_file: str, output_file: str, force: bool) -> None:
 
 
 if __name__ == "__main__":  # pragma: no cover
-    llmcluster()  # pylint: disable=no-value-for-parameter
+    llmbroker()  # pylint: disable=no-value-for-parameter
