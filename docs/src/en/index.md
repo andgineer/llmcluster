@@ -1,6 +1,6 @@
 # llmcluster
 
- 
+
 
 
 ### Advanced
@@ -14,4 +14,3 @@ to see all available options.
 !!! info "About"
     ![About](images/about.jpg)
     [About][llmcluster.__about__]
-

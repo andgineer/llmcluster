@@ -2,7 +2,7 @@
 [![Coverage](https://raw.githubusercontent.com/andgineer/llmcluster/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/andgineer/llmcluster/blob/python-coverage-comment-action-data/htmlcov/index.html)
 # llmcluster
 
- 
+
 
 # Documentation
 
